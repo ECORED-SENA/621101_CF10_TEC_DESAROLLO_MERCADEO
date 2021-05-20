@@ -53,7 +53,7 @@
               img(src='@/assets/curso/img6.jpg', alt='Texto que describa la imagen')
     .row.mb-5
       .col-lg-6
-        .titulo_tarjeta-amarilla.d-flex.p-3
+        .titulo_tarjeta-gris.d-flex.p-3
           .elementos-titulo.d-flex.m-auto
             img(src='@/assets/componentes/atencion.svg', alt='Texto que describa la imagen' style='width: 55px ').d-inline-block
             .h4.my-auto.d-inline-block.ms-3 Atención
@@ -85,10 +85,7 @@
           .tarjeta.color__rojo-claro.p-4
             .h4.text-center Plano estratégico
             p.text-center El corazón del marketing es la diferenciación.
-            br
-            br
-            br
-            br
+            
       .col-md-6.col-lg-3.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/img9.svg' alt='AvatarTop')
@@ -98,10 +95,6 @@
           .tarjeta.color__rojo-claro.p-3
             .h4.text-center Plano táctico
             p.text-center Si todas las empresas utilizaran las mismas métricas, fracasarían.
-            br
-            br
-            br
-            br
       .col-md-6.col-lg-3.mb-5
         .tarjeta-Avatar.m-auto
           img(src='@/assets/curso/img10.svg' alt='AvatarTop')
@@ -111,8 +104,6 @@
           .tarjeta.color__rojo-claro.p-3
             .h4.text-center Plano operativo
             p.text-center.mb-5 Las métricas deben desarrollarse a la medida, en función de las estrategias a seguir.
-            br
-            br
       .col-md-6.col-lg-3.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/img11.svg' alt='AvatarTop')
@@ -122,7 +113,6 @@
           .tarjeta.color__rojo-claro.p-3
             .h4.text-center Métricas de uso común
             p.text-center Existen métricas que deben ser de uso común, como la cuota de mercado, o cuota cliente, necesaria para poder establecer comparaciones con empresas del mismo sector (Domínguez y Muñoz, 2010). 
-            br
     #t_1_1.titulo-segundo
       .h4 1.1. Desempeño organizacional
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
