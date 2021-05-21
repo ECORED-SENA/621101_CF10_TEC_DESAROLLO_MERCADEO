@@ -145,13 +145,11 @@
     p.mb-5 Este protocolo de fases en la auditoría de marketing busca dar cumplimiento a los objetivos y propender por el mejoramiento de todas las tareas relacionadas con la gestión del negocio, como las relaciona Lucas (2017) en la siguiente gráfica.
     figure.mb-5
       img(src='@/assets/curso/img33.svg', alt='Texto que describa la imagen')
-    .row.mb-5
-      .col-lg-3
-        .titulo_tarjeta-amarilla.d-flex.p-3
+    .contenedor-2.d-flex.mb-5
+        .titulo_tarjeta-amarilla-2.d-flex.p-3
           .elementos-titulo.d-flex.m-auto
             img(src='@/assets/componentes/importante.svg', alt='Texto que describa la imagen' style='width: 55px ').d-inline-block
             .h4.my-auto.d-inline-block.ms-3 Importante 
-      .col-lg-9
         .tarjeta--gris.p-5
           p Para cada una de las áreas de la estrategia de marketing se debe realizar una auditoría con permanente monitoreo, comparando los resultados obtenidos en cada período de tiempo y en cada uno de los elementos claves: estrategia de portafolio de productos y servicios, estrategia de precios, estrategia de distribución, estrategia de comunicación y estrategia de marketing internacional (Lucas, 2017). 
     figure.mb-5
@@ -284,13 +282,11 @@
       .tarjeta.color-primario-claro.p-4(titulo="6. Verificables")
         .h4 6. Verificables
         p También es verificable, esto es que, en el momento en que se requiera, se debe tener acceso a las fuentes de información de donde se calculó la métrica; de esta manera, se cumple con una característica importante de la auditoría, que es la objetividad.
-    .row.mb-5
-      .col-lg-3
-        .titulo_tarjeta-amarilla.d-flex.p-3
+    .contenedor-2.d-flex.mb-5
+        .titulo_tarjeta-amarilla-2.d-flex.p-3
           .elementos-titulo.d-flex.m-auto
             img(src='@/assets/componentes/importante.svg', alt='Texto que describa la imagen' style='width: 55px ').d-inline-block
             .h4.my-auto.d-inline-block.ms-3 Importante 
-      .col-lg-9
         .tarjeta--gris.p-5
           p.text-center.mb-3
             b Algunas métricas que se pueden utilizar para el desarrollo de un programa de mercadeo
@@ -322,6 +318,7 @@
       .col-lg-5
             figure
               img(src='@/assets/curso/img41.svg', alt='Texto que describa la imagen')
+    p.mb-5 Las tres claves de la retención de clientes son:
     .row.mb-5
       .col-12
         hr
@@ -376,54 +373,61 @@
       .col-12
         hr
     .h5 Grado de satisfacción.
-    .row.mb-5
-      .col-lg-7
-        p La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
-      .col-lg-5
-            figure
-              img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')
-    ol.lista-ol--cuadro.mb-5
-        li 
-          .lista-ol--cuadro__vineta
-            span A
-          b Satisfacción y preferencia: 
-          b-none La profundidad de estos dos parámetros nos muestra el compromiso con la marca, cuya medida es la probabilidad de cambio.
+    figure
+    .video
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    hr
+    //- Utilizar en caso de que no se pase a producción el video 
+      .row.mb-5
+        .col-lg-7
+          p La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
+        .col-lg-5
+              figure
+                img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')
+      ol.lista-ol--cuadro.mb-5
+          li 
+            .lista-ol--cuadro__vineta
+              span A
+            b Satisfacción y preferencia: 
+            b-none La profundidad de estos dos parámetros nos muestra el compromiso con la marca, cuya medida es la probabilidad de cambio.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span B
-          p
-            b El compromiso mide la propensión de los consumidores a quedarse con una marca. 
-            b-none Es una métrica específica de la empresa. No es una métrica relativa que se pueda comparar con otras marcas de la competencia. 
+          li 
+            .lista-ol--cuadro__vineta
+              span B
+            p
+              b El compromiso mide la propensión de los consumidores a quedarse con una marca. 
+              b-none Es una métrica específica de la empresa. No es una métrica relativa que se pueda comparar con otras marcas de la competencia. 
 
-        li 
-          .lista-ol--cuadro__vineta
-            span C
-          p
-            b La diferenciación es más un diagnóstico que una métrica. 
-            b-none Es necesario hacer encuestas periódicas de satisfacción de clientes, sobre todo en empresas de consumo (Domínguez y Muñoz, 2010).
+          li 
+            .lista-ol--cuadro__vineta
+              span C
+            p
+              b La diferenciación es más un diagnóstico que una métrica. 
+              b-none Es necesario hacer encuestas periódicas de satisfacción de clientes, sobre todo en empresas de consumo (Domínguez y Muñoz, 2010).
 
-        li 
-          .lista-ol--cuadro__vineta
-            span D
-          p
-            b Ejemplo de escala para encuesta:
-    .tabla-a.color-acento-botones.mb-5 
-      table
-        thead
-          tr
-            th Muy insatisfecho
-            th Algo insatisfecho
-            th Ni insatisfecho ni satisfecho
-            th Algo satisfecho
-            th Muy satisfecho
-        tbody
-          tr
-            td 1
-            td 2
-            td 3
-            td 4
-            td 5
+          li 
+            .lista-ol--cuadro__vineta
+              span D
+            p
+              b Ejemplo de escala para encuesta:
+      .tabla-a.color-acento-botones.mb-5 
+        table
+          thead
+            tr
+              th Muy insatisfecho
+              th Algo insatisfecho
+              th Ni insatisfecho ni satisfecho
+              th Algo satisfecho
+              th Muy satisfecho
+          tbody
+            tr
+              td 1
+              td 2
+              td 3
+              td 4
+              td 5
+    p.mb-5 A continuación, se pueden apreciar las métricas para medir el grado de satisfacción propuestas por Hoyos (2013).
     .h5 Métricas para medir grado de satisfacción
     p.mb-5 Presione, ordenadamente, los enlaces que ve en pantalla y analice cada una de las métricas para la medición del grado de satisfacción del cliente. Tome atenta nota de ellas.
     .row.mb-5
@@ -454,7 +458,7 @@
       .col-lg
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img49.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3
+          .tarjeta.tarjeta--roja.p-3.ml
             .h5 Grado de satisfacción
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
@@ -465,7 +469,7 @@
                 p Clientes totales del periodo
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img50.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3
+          .tarjeta.tarjeta--roja.p-3.ml
             .h5 Participación en la billetera del cliente
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
@@ -476,7 +480,7 @@
                 p Total de compras del cliente
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img51.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3
+          .tarjeta.tarjeta--roja.p-3.ml
             .h5 Top of mind
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
@@ -487,7 +491,7 @@
                 p Total de encuestados
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img52.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3
+          .tarjeta.tarjeta--roja.p-3.ml
             .h5 Top of heart
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
@@ -521,7 +525,7 @@
               p Utilidades netas antes de impuestos
                 hr.hr.m-0
               p Inversión
-          .formula.d-flex.align-items-center.mb-5
+          .formula.d-flex.align-items-center
             .my-3.d-inline-block.text-center
               p ROI Total =
             .d-inline-block.ps-2.text-center

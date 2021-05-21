@@ -212,13 +212,11 @@
           img(src='@/assets/curso/img17.svg', alt='Texto que describa la imagen')
         .h3 ¡Atención!
         p.mb-5 Si no es mayor o igual a uno, indicará que se están realizando gastos suplementarios a los presupuestados, y por lo tanto que se está perdiendo eficiencia.
-    .row.mb-5
-      .col-lg-3
-        .titulo_tarjeta-amarilla.d-flex.p-3
+    .contenedor-2.d-flex.mb-5
+        .titulo_tarjeta-amarilla-2.d-flex.p-3
           .elementos-titulo.d-flex.m-auto
             img(src='@/assets/componentes/importante.svg', alt='Texto que describa la imagen' style='width: 55px ').d-inline-block
             .h4.my-auto.d-inline-block.ms-3 Importante 
-      .col-lg-9
         .tarjeta--gris.p-5
           .formula.d-flex.align-items-center.mb-5
               p.my-3.d-inline-block
@@ -346,35 +344,37 @@
             td 934
             td 1620
             td 1377
-    .formula.d-flex.align-items-center.mb-3
-      .my-3.d-inline-block
-        p Eficiencia del marketing  =
-      .d-inline-block.ps-2.text-center  
-        p 48
-        hr.hr.m-0
-        p 50
-      .d-inline-block.ps-2.text-center  
-        p  
-          |= 0,96 
-    .formula.d-flex.align-items-center.mb-3
-      .my-3.d-inline-block
-        p Eficacia del marketing = 
-      .d-inline-block.ps-2.text-center  
-        p 1000
-        hr.hr.m-0
-        p 934
-      .d-inline-block.ps-2.text-center  
-        p  
-          |= 1.07
-    .formula.d-flex.align-items-center.mb-5
-      .my-3.d-inline-block
-        p Actividad = 
-      .d-inline-block.ps-2.text-center  
-        p 1620 - 1376
-        hr.hr.m-0
-        p 1376
-      .d-inline-block.ps-2.text-center  
-        p *17,73%
+    .tarjeta--gris.p-5.mb-5
+      .justify-items-center.vertical-align-middle
+        .formula.d-flex.align-items-center.mb-3
+          .my-3.d-inline-block
+            p Eficiencia del marketing  =
+          .d-inline-block.ps-2.text-center  
+            p 48
+            hr.hr.m-0
+            p 50
+          .d-inline-block.ps-2.text-center  
+            p  
+              |= 0,96 
+        .formula.d-flex.align-items-center.mb-3
+          .my-3.d-inline-block
+            p Eficacia del marketing = 
+          .d-inline-block.ps-2.text-center  
+            p 1000
+            hr.hr.m-0
+            p 934
+          .d-inline-block.ps-2.text-center  
+            p  
+              |= 1.07
+        .formula.d-flex.align-items-center
+          .my-3.d-inline-block
+            p Actividad = 
+          .d-inline-block.ps-2.text-center  
+            p 1620 - 1376
+            hr.hr.m-0
+            p 1376
+          .d-inline-block.ps-2.text-center  
+            p *17,73%
     p.mb-3
       b Análisis del ejemplo
     p.mb-5 Es posible reforzar los conceptos hasta ahora desarrollados, mediante el análisis del ejemplo anterior sobre métrica de eficiencia, eficacia, actividad y ventas.
@@ -382,9 +382,17 @@
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
           img(src='@/assets/curso/img20.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--roja.p-4
+          .tarjeta.tarjeta--azul.p-4
             .h5 Actividad en ventas
             p La actividad en ventas ha sido alta, se ha vendido un 17,73% más que el año pasado. En apariencia parece que el área de ventas y la empresa en su conjunto están funcionando de forma correcta.
+      .col-lg-6
+        .tarjeta-Avatar-b.mb-5
+          img(src='@/assets/curso/img22.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.p-4
+            .h5 Eficiencia
+            p La métrica de la eficiencia muestra que se está actuando de forma no eficiente, ya que se ha llegado a completar la cuenta de gastos inicialmente presupuestada, y por lo tanto se está sobrepasando el gasto previsto.
+    .row
+      .col-lg-6
         .tarjeta-Avatar-b.mb-5
           img(src='@/assets/curso/img21.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.p-4
@@ -392,23 +400,16 @@
             p Sin embargo, si miramos la eficacia, esta da un resultado superior a uno, lo que está indicando que los beneficios han estado por debajo de lo esperado para el año siguiente.
       .col-lg-6
         .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/img22.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.p-4
-            .h5 Eficiencia
-            p La métrica de la eficiencia muestra que se está actuando de forma no eficiente, ya que se ha llegado a completar la cuenta de gastos inicialmente presupuestada, y por lo tanto se está sobrepasando el gasto previsto.
-        .tarjeta-Avatar-b.mb-5
           img(src='@/assets/curso/img23.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.p-4
             .h5 Indicadores
             p Mirando de forma conjunta las métricas de eficacia y de actividad, podemos deducir que, en principio, aunque la actividad en ventas ha sido buena, puede que la calidad de la venta no lo haya sido tanto, ya que se ha vendido más, pero se ha generado menos beneficio.
-    .row.mb-5
-      .col-lg-3
-        .titulo_tarjeta-amarilla.d-flex.p-3
+    .contenedor-2.d-flex.mb-5
+        .titulo_tarjeta-amarilla-2.d-inline-block.p-3
           .elementos-titulo.d-flex.m-auto
             img(src='@/assets/componentes/importante.svg', alt='Texto que describa la imagen' style='width: 55px ').d-inline-block
             .h4.my-auto.d-inline-block.ms-3 Importante 
-      .col-lg-9
-        .tarjeta--gris.p-5
+        .tarjeta--gris.p-5.d-inline-block
           p.mb-3 Se ofrecen otros elementos de análisis que podrían tenerse en cuenta en este ejemplo. Es necesario revisarlos con atención.
           ul.lista-ul--color
             li 
@@ -430,7 +431,7 @@
     p.mb-5 La relación entre eficiencia y eficacia nos permite ver el logro de los resultados en el tiempo programado y los costos incurridos de manera racional. 
     .row.mb-5
       .col-lg-6
-        .cajon.color-secundario.p-5.mb-4.text-white
+        .cajon.color-terciario.p-5.mb-4
           p Esto es efectividad: alcanzar altas metas con bajos recursos. Es decir, lo que pide el cliente: productos de precios adecuados, en forma adecuada y en el momento adecuado. Costo y oportunidad (Cano, 2014).
             br
             br
@@ -463,8 +464,6 @@
           .tarjeta.azul-claro.p-4
             .h4.text-center Las empresas de hoy 
             p.text-center El entorno de las empresas de hoy tiene mayores dificultades, derivadas del alto nivel de exigencia de los mercados. La alta competitividad, entre otros, hace que las organizaciones deban vivir en constante investigación, a fin de generar la información necesaria que, después de ser analizada, permita estructurar los planes de marketing y definir las estrategias adaptadas a las necesidades de cambio que se van presentando.
-            br
-            br
       .col-md-6.col-lg-4.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/img25.svg' alt='AvatarTop')
@@ -474,14 +473,6 @@
           .tarjeta.azul-claro.p-4
             .h4.text-center El marketing 
             p.text-center La esencia de una buena gestión en marketing está en: investigar, analizar, evaluar, planear, implementar y controlar (Prettel, 2016).
-            br
-            br
-            br
-            br
-            br
-            br
-            br
-            br
       .col-md-6.col-lg-4.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/img26.svg' alt='AvatarTop')
