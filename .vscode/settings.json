@@ -4,4 +4,6 @@
     "source.fixAll": true
   },
   "eslint.run": "onSave",
+  "cSpell.language": ",es",
+  "cSpell.enabled": true,
 }

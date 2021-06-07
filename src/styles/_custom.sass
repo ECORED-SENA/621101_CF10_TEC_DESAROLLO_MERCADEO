@@ -10,7 +10,10 @@
     border-radius: 20px 20px 0px 0px 
   &-gris
     background-color: #E8E8E8
-    border-radius: 20px 20px 0px 0px 
+    border-radius: 20px 20px 0px 0px
+    transition: background-color .5s
+    &:hover 
+      background-color: #fed947
 .contenido-tarjeta
   
   &-amarilla
@@ -44,8 +47,7 @@
 .tarjeta-Avatar
   height: 100%
 .tarjeta.tarjeta--azul
-  min-height: 207px
-  height: inherit
+  min-height: 180px
 .contenedor-2
   
   .titulo_tarjeta-amarilla-2
@@ -55,10 +57,17 @@
 
 .color-terciario
   background-color: #DEF1FF 
-  ::before
+  &:before
     background-color: #7CC5FF 
 .ml
   margin-left: -3.5% !important
-
+.altura-bloque
+  height: 250px
+.small-text
+  font-size: 13px !important
+.formula1
+  width: 135px
+.b 
+  font-weight: bold
     
 

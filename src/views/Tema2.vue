@@ -84,7 +84,7 @@
         .row
           .col-md-6
             figure
-              img(src='@/assets/curso/img13.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/img31.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             .h4 Análisis de competitividad
             p.mb-3 Un análisis de la competitividad no debe ser abstracto. Se deben cubrir los siguientes campos:
@@ -113,19 +113,19 @@
     p.mb-5 Hoyos (2013) menciona que la auditoría de marketing debe reunir las siguientes características:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris").mb-5
       div.p-3(titulo="Permanente:")
-        p se debe desarrollar la cultura de la evaluación constante de sus actividades, no hay que esperar a que surjan problemas graves para hacer una revisión de cada uno de los programas y actividades a su cargo, y de los recursos invertidos en dichas actividades, sino que debe actuar de una manera proactiva en este sentido
+        p Se debe desarrollar la cultura de la evaluación constante de sus actividades, no hay que esperar a que surjan problemas graves para hacer una revisión de cada uno de los programas y actividades a su cargo, y de los recursos invertidos en dichas actividades, sino que debe actuar de una manera proactiva en este sentido
       div.p-3(titulo="Detallada: ")
-        p se debe hacer un examen exhaustivo de todas las tareas, funciones, áreas y procesos de marketing, sin dejar descubierto ningún aspecto, por pequeño que parezca.
+        p Se debe hacer un examen exhaustivo de todas las tareas, funciones, áreas y procesos de marketing, sin dejar descubierto ningún aspecto, por pequeño que parezca.
       div.p-3(titulo="Sistemática: ")
-        p debe hacerse con una metodología rigurosa; debe tener unos objetivos específicos y un plan predeterminado para obtener los mejores resultados. Asimismo, debe contar con unas herramientas previamente probadas que garanticen que la información que se está colectando corresponde a la realidad que se está tratando de interpretar.
+        p Debe hacerse con una metodología rigurosa; debe tener unos objetivos específicos y un plan predeterminado para obtener los mejores resultados. Asimismo, debe contar con unas herramientas previamente probadas que garanticen que la información que se está colectando corresponde a la realidad que se está tratando de interpretar.
       div.p-3(titulo="Independiente:")
-        p a pesar de que la auditoría se puede hacer desde adentro, es conveniente en muchos casos que personas externas la realicen para lograr la mayor objetividad posible.
+        p A pesar de que la auditoría se puede hacer desde adentro, es conveniente en muchos casos que personas externas la realicen para lograr la mayor objetividad posible.
       div.p-3(titulo="Objetividad: ")
-        p los procesos de auditoría se deben centrar en los problemas y no en las personas; el auditor debe dejar a un lado sus prejuicios y centrarse en los hechos y en las evidencias que puedan usarse para medir un proceso.
+        p Los procesos de auditoría se deben centrar en los problemas y no en las personas; el auditor debe dejar a un lado sus prejuicios y centrarse en los hechos y en las evidencias que puedan usarse para medir un proceso.
       div.p-3(titulo="Honestidad:")
-        p en muchas ocasiones, intereses de dinero o de otro tipo pueden prestarse para que al auditor se le ofrezcan incentivos no legales para mostrar unos resultados determinados o para no mostrar otros.
+        p En muchas ocasiones, intereses de dinero o de otro tipo pueden prestarse para que al auditor se le ofrezcan incentivos no legales para mostrar unos resultados determinados o para no mostrar otros.
       div.p-3(titulo="Confidencialidad: ")
-        p el auditor no puede, bajo ninguna circunstancia, revelar a terceros información recogida durante el proceso, ya que se puede dar una fuga de información que puede perjudicar a una empresa severamente.
+        p El auditor no puede, bajo ninguna circunstancia, revelar a terceros información recogida durante el proceso, ya que se puede dar una fuga de información que puede perjudicar a una empresa severamente.
     #t_2_1.titulo-segundo
       .h4 2.1. Plan de contingencia
     .row.mb-5
@@ -194,7 +194,7 @@
       .h4 2.3. Indicadores
     .row.mb-5
       .col-lg-7
-        p Cano (2014) determina que es indispensable el uso de indicadores para medir los objetivos y metas en los procesos de planeación y programación de actividades, ya que la actuación de los resultados fuera de lo normal, dados por el nivel del indicador, lleva necesariamente a una corrección. Particularmente, para cada actividad o proceso se puede tener un indicador, pero en las auditorías integrales se suelen tener varios, que en conjunto forman los indicadores de gestión de esa actividad o de ese proceso.
+        p.mt-4 Cano (2014) determina que es indispensable el uso de indicadores para medir los objetivos y metas en los procesos de planeación y programación de actividades, ya que la actuación de los resultados fuera de lo normal, dados por el nivel del indicador, lleva necesariamente a una corrección. Particularmente, para cada actividad o proceso se puede tener un indicador, pero en las auditorías integrales se suelen tener varios, que en conjunto forman los indicadores de gestión de esa actividad o de ese proceso.
       .col-lg-5
             figure
               img(src='@/assets/curso/img39.svg', alt='Texto que describa la imagen')
@@ -249,7 +249,7 @@
     .h5 Métricas.
     .row.mb-5
       .col-lg-7
-        p Uno de los grandes retos en una organización es demostrar que los recursos invertidos dan resultados tangibles. Esto se logra a través de indicadores de gestión o métricas de marketing, como también se les conoce a estas herramientas. Es importante tener en cuenta que, adicional a las métricas de orden financiero, que en últimas son las que más gustan en las empresas, existen otras muy específicas de marketing, que ayudarán al encargado de esta área a medir su gestión y tener control de ella, de manera permanente (Hoyos, 2013).
+        p.mt-4 Uno de los grandes retos en una organización es demostrar que los recursos invertidos dan resultados tangibles. Esto se logra a través de indicadores de gestión o métricas de marketing, como también se les conoce a estas herramientas. Es importante tener en cuenta que, adicional a las métricas de orden financiero, que en últimas son las que más gustan en las empresas, existen otras muy específicas de marketing, que ayudarán al encargado de esta área a medir su gestión y tener control de ella, de manera permanente (Hoyos, 2013).
       .col-lg-5
             figure
               img(src='@/assets/curso/img40.svg', alt='Texto que describa la imagen')
@@ -275,7 +275,7 @@
         p Es común que lo que pasa con los consumidores y con la competencia es información a la cual no se puede tener acceso, por lo que en ciertos casos construir la métrica es imposible. Incluso, hay actividades dentro de la misma organización sobre las cuales no se tiene la información disponible, lo que lleva a la necesidad de reestructurar los sistemas de información.
       .tarjeta.color-primario-claro.p-4(titulo="4. Manejables")
         .h4 4. Manejables
-        p Es común que lo que pasa con los consumidores y con la competencia es información a la cual no se puede tener acceso, por lo que en ciertos casos construir la métrica es imposible. Incluso, hay actividades dentro de la misma organización sobre las cuales no se tiene la información disponible, lo que lleva a la necesidad de reestructurar los sistemas de información.
+        p Hay que destacar actividades que son mas fáciles de medir que otras. Las fáciles son aquellas que dan respuesta inmediata, como correo directo, telemarketing, campañas de e-mailing, tráfico a sitios web: mientras que hay unas mas dificiles, como las relacionadas con temas de construcción de marca y posicionamiento (Stewart, 2009)
       .tarjeta.color-primario-claro.p-4(titulo="5. Simples")
         .h4 5. Simples
         p De manera consecuente, el indicador debe ser fácil de interpretar, es decir, que con una simple mirada se debe entender lo que el indicador quiere decir, lo cual se logra con una buena denominación de este. Por lo tanto, en el momento de construir la métrica, es necesario ser asertivos en la manera como se le va a nombrar. 
@@ -314,11 +314,11 @@
     .h5 Tasa de retención.
     .row.mb-5
       .col-lg-7
-        p Retener un cliente cuesta aproximadamente una décima parte de lo que cuesta conseguir uno nuevo. Por eso, debe ser una prioridad saber aplicar estrategias de retención y fidelización que consigan mantener y desarrollar a los clientes rentables y fieles. Las compañías que basan sus estrategias de marketing en la captación compulsiva de clientes, a veces están olvidando que el verdadero reto del marketing empieza cuando se ha captado el cliente (Dominguez y Muñoz, 2010).
+        p.mt-3 Retener un cliente cuesta aproximadamente una décima parte de lo que cuesta conseguir uno nuevo. Por eso, debe ser una prioridad saber aplicar estrategias de retención y fidelización que consigan mantener y desarrollar a los clientes rentables y fieles. Las compañías que basan sus estrategias de marketing en la captación compulsiva de clientes, a veces están olvidando que el verdadero reto del marketing empieza cuando se ha captado el cliente (Dominguez y Muñoz, 2010).
       .col-lg-5
             figure
               img(src='@/assets/curso/img41.svg', alt='Texto que describa la imagen')
-    p.mb-5 Las tres claves de la retención de clientes son:
+    p.mb-5 Las cuatro claves de la retención de clientes son:
     .row.mb-5
       .col-12
         hr
@@ -358,152 +358,152 @@
           p.mb-3 La métrica que mide la retención debe hacerlo para un periodo de tiempo previamente definido.
           .formula.d-flex.align-items-center.mb-4
             .my-3.d-inline-block.text-center
-              p Tasa de retención  = 
+              p.b Tasa de retención  = 
             .d-inline-block.ps-2.text-center
-              p Número de clientes retenidos o renovados en el periodo
+              p.b Número de clientes retenidos o renovados en el periodo
                 hr.hr.m-0
-              p Número de clientes en el periodo
+              p.b Número de clientes en el periodo
           .formula.d-flex.align-items-center.mb-4
             .my-3.d-inline-block.text-center
-              p Costo de retención de clientes = 
+              p.b Costo de retención de clientes = 
             .d-inline-block.ps-2.text-center
-              p Costos de retención
+              p.b Costos de retención
                 hr.hr.m-0
-              p Número de clientes retenidos
+              p.b Número de clientes retenidos
       .col-12
         hr
     .h5 Grado de satisfacción.
-    figure
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    //- figure
+    //- .video
+    //-   iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    //-   figcaption Video: Leyenda del video
     hr
-    //- Utilizar en caso de que no se pase a producción el video 
-      .row.mb-5
-        .col-lg-7
-          p La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
-        .col-lg-5
-              figure
-                img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')
-      ol.lista-ol--cuadro.mb-5
-          li 
-            .lista-ol--cuadro__vineta
-              span A
-            b Satisfacción y preferencia: 
-            b-none La profundidad de estos dos parámetros nos muestra el compromiso con la marca, cuya medida es la probabilidad de cambio.
+    
+    .row.mb-5
+      .col-lg-7
+        p La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
+      .col-lg-5
+            figure
+              img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')
+    ol.lista-ol--cuadro.mb-5
+        li 
+          .lista-ol--cuadro__vineta
+            span A
+          b Satisfacción y preferencia: 
+          b-none La profundidad de estos dos parámetros nos muestra el compromiso con la marca, cuya medida es la probabilidad de cambio.
 
-          li 
-            .lista-ol--cuadro__vineta
-              span B
-            p
-              b El compromiso mide la propensión de los consumidores a quedarse con una marca. 
-              b-none Es una métrica específica de la empresa. No es una métrica relativa que se pueda comparar con otras marcas de la competencia. 
+        li 
+          .lista-ol--cuadro__vineta
+            span B
+          p
+            b El compromiso mide la propensión de los consumidores a quedarse con una marca. 
+            b-none Es una métrica específica de la empresa. No es una métrica relativa que se pueda comparar con otras marcas de la competencia. 
 
-          li 
-            .lista-ol--cuadro__vineta
-              span C
-            p
-              b La diferenciación es más un diagnóstico que una métrica. 
-              b-none Es necesario hacer encuestas periódicas de satisfacción de clientes, sobre todo en empresas de consumo (Domínguez y Muñoz, 2010).
+        li 
+          .lista-ol--cuadro__vineta
+            span C
+          p
+            b La diferenciación es más un diagnóstico que una métrica. 
+            b-none Es necesario hacer encuestas periódicas de satisfacción de clientes, sobre todo en empresas de consumo (Domínguez y Muñoz, 2010).
 
-          li 
-            .lista-ol--cuadro__vineta
-              span D
-            p
-              b Ejemplo de escala para encuesta:
-      .tabla-a.color-acento-botones.mb-5 
-        table
-          thead
-            tr
-              th Muy insatisfecho
-              th Algo insatisfecho
-              th Ni insatisfecho ni satisfecho
-              th Algo satisfecho
-              th Muy satisfecho
-          tbody
-            tr
-              td 1
-              td 2
-              td 3
-              td 4
-              td 5
+        li 
+          .lista-ol--cuadro__vineta
+            span D
+          p
+            b Ejemplo de escala para encuesta:
+    .tabla-a.color-acento-botones.mb-5 
+      table
+        thead
+          tr
+            th Muy insatisfecho
+            th Algo insatisfecho
+            th Ni insatisfecho ni satisfecho
+            th Algo satisfecho
+            th Muy satisfecho
+        tbody
+          tr
+            td 1
+            td 2
+            td 3
+            td 4
+            td 5
     p.mb-5 A continuación, se pueden apreciar las métricas para medir el grado de satisfacción propuestas por Hoyos (2013).
     .h5 Métricas para medir grado de satisfacción
     p.mb-5 Presione, ordenadamente, los enlaces que ve en pantalla y analice cada una de las métricas para la medición del grado de satisfacción del cliente. Tome atenta nota de ellas.
     .row.mb-5
-      .col-lg-6
+      .col-lg-12
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img47.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3
+          .tarjeta.tarjeta--roja.p-3.ml
             .h5 Nivel de satisfacción
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
-                p Nivel de satisfacción  =  
+                p.b Nivel de satisfacción  =  
               .d-inline-block.ps-2.text-center
-                p Clientes satisfechos
+                p.b Clientes satisfechos
                   hr.hr.m-0
-                p Clientes leales
-      .col-lg-6
-        .tarjeta-Avatar-b.mb-3
-          img(src='@/assets/curso/img48.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3
-            .h5 Lealtad
-            .formula.d-flex.align-items-center.mb-1
-              .my-3.d-inline-block.text-center
-                p Lealtad =   
-              .d-inline-block.ps-2.text-center
-                p Compras a la empresa
-                  hr.hr.m-0
-                p Compras a la competencia
-      .col-lg
+                p.b Clientes leales
+      .col-lg-12
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img49.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
           .tarjeta.tarjeta--roja.p-3.ml
             .h5 Grado de satisfacción
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
-                p Grado de satisfacción =  
+                p.b Grado de satisfacción =  
               .d-inline-block.ps-2.text-center
-                p Clientes que han consumido en el periodo - Clientes que se han mostrado insatisfechos
+                p.b Clientes que han consumido en el periodo - Clientes que se han mostrado insatisfechos
                   hr.hr.m-0
-                p Clientes totales del periodo
+                p.b Clientes totales del periodo
+      .col-lg-12
+        .tarjeta-Avatar-b.mb-3
+          img(src='@/assets/curso/img48.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+          .tarjeta.tarjeta--roja.p-3.ml
+            .h5 Lealtad
+            .formula.d-flex.align-items-center.mb-1
+              .my-3.d-inline-block.text-center
+                p.b Lealtad =   
+              .d-inline-block.ps-2.text-center
+                p.b Compras a la empresa
+                  hr.hr.m-0
+                p.b Compras a la competencia
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img50.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
           .tarjeta.tarjeta--roja.p-3.ml
             .h5 Participación en la billetera del cliente
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
-                p Participación en la billetera del cliente (Share of wallet)  = 
+                p.b Participación en la billetera del cliente (Share of wallet)  = 
               .d-inline-block.ps-2.text-center
-                p Ventas de la marca por periodo
+                p.b Ventas de la marca por periodo
                   hr.hr.m-0
-                p Total de compras del cliente
+                p.b Total de compras del cliente por periodo
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img51.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
           .tarjeta.tarjeta--roja.p-3.ml
             .h5 Top of mind
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
-                p Top of mind =  
+                p.b Top of mind =  
               .d-inline-block.ps-2.text-center
-                p Porcentaje de personas que nombran primero una marca
+                p.b Porcentaje de personas que nombran primero una marca
                   hr.hr.m-0
-                p Total de encuestados
+                p.b Total de encuestados
         .tarjeta-Avatar-b.mb-3
           img(src='@/assets/curso/img52.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
           .tarjeta.tarjeta--roja.p-3.ml
             .h5 Top of heart
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
-                p Top of heard = 
+                p.b Top of heard = 
               .d-inline-block.ps-2.text-center
-                p Porcentaje de personas que prefieren una marca
+                p.b Porcentaje de personas que prefieren una marca
                   hr.hr.m-0
-                p Total de encuestados
+                p.b Total de encuestados
     .h5 Retorno sobre la inversión.
     .row.mb-5
       .col-lg-7
-        p Retorno sobre la inversión, o Return On Investment (ROI), es una de las principales métricas de análisis financiero. Esta métrica relaciona los beneficios obtenidos por la inversión realizada. El resultado es el porcentaje de retorno que la compañía o el accionista está obteniendo del capital invertido en la actividad. En el caso concreto de aplicarlo al área de marketing, se puede denominar retorno de los costes del marketing (Domínguez y Muñoz, 2010).
+        p.mt-4 Retorno sobre la inversión, o Return On Investment (ROI), es una de las principales métricas de análisis financiero. Esta métrica relaciona los beneficios obtenidos por la inversión realizada. El resultado es el porcentaje de retorno que la compañía o el accionista está obteniendo del capital invertido en la actividad. En el caso concreto de aplicarlo al área de marketing, se puede denominar retorno de los costes del marketing (Domínguez y Muñoz, 2010).
       .col-lg-5
             figure
               img(src='@/assets/curso/img53.svg', alt='Texto que describa la imagen')
@@ -513,40 +513,40 @@
         .col-lg-6
           .formula.d-flex.align-items-center.mb-5
             .my-3.d-inline-block.text-center
-              p ROI por cliente =
+              .b ROI por cliente =
             .d-inline-block.ps-2.text-center
-              p Beneficio
+              .b Beneficio
                 hr.hr.m-0
-              p Inversión en marketing
+              .b Inversión en marketing
           .formula.d-flex.align-items-center.mb-5
             .my-3.d-inline-block.text-center
-              p ROI por Ventas =
+              .b ROI por Ventas =
             .d-inline-block.ps-2.text-center
-              p Utilidades netas antes de impuestos
+              .b Utilidades netas antes de impuestos
                 hr.hr.m-0
-              p Inversión
+              .b Inversión
           .formula.d-flex.align-items-center
             .my-3.d-inline-block.text-center
-              p ROI Total =
+              .b ROI Total =
             .d-inline-block.ps-2.text-center
-              p Beneficio del producto o margen bruto
+              .b Beneficio del producto o margen bruto
                 hr.hr.m-0
-              p Inversión directa realizada al producto
+              .b Inversión directa realizada al producto
         .col-lg-6
           .formula.d-flex.align-items-center.mb-5
             .my-3.d-inline-block.text-center
-              p ROI por cliente =
+              .b ROI por cliente =
             .d-inline-block.ps-2.text-center
-              p Beneficio de este cliente
+              .b Beneficio de este cliente
                 hr.hr.m-0
-              p Inversión en el cliente
+              .b Inversión en el cliente
           .formula.d-flex.align-items-center.mb-5
             .my-3.d-inline-block.text-center
-              p ROI por Ventas =
+              .b ROI por Ventas =
             .d-inline-block.ps-2.text-center
-              p Margen bruto
+              .b Margen bruto
                 hr.hr.m-0
-              p Costos de ventas
+              .b Costos de ventas
 
 
 

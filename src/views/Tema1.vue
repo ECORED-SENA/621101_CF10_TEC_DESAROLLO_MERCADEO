@@ -2,13 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    //- Muestras
     .titulo-principal
       .titulo-principal__numero
         .h3 1
@@ -18,34 +11,34 @@
     p.mb-5 Para comenzar con el estudio de este componente, complete y analice atentamente el siguiente gráfico interactivo.
     p.mb-5 El plan de mercadeo debe considerar cuatro grandes elementos en su proceso administrativo: la planeación, la organización, la dirección y el control.
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-primario-claro.p-4(titulo="Planeación:")
+      .tarjeta.color-primario-claro.p-4(titulo="Planeación")
         .row.p-3
           .col-7
-            h4 Planeación:
+            h4 Planeación
             p La planeación incluye la recolección de información de los hechos que se producen en el mercado y en la organización y su correspondiente análisis para encontrar oportunidades de mejoramiento, lo que debe conducir a la fijación de objetivos, diseño de estrategias y asignación de recursos.
           .col-5 
             figure
               img(src='@/assets/curso/img3.jpg', alt='Texto que describa la imagen')
-      .tarjeta.color-primario-claro.p-4(titulo="Organización:")
+      .tarjeta.color-primario-claro.p-4(titulo="Organización")
         .row.p-3
           .col-7
-            h4 Organización:
+            h4 Organización
             p Luego se avanza al proceso de organización, donde se revisan la estructura del área, los procedimientos, los manuales y demás elementos que permitirán abordar la etapa de dirección.
           .col-5 
             figure
               img(src='@/assets/curso/img4.jpg', alt='Texto que describa la imagen')
-      .tarjeta.color-primario-claro.p-4(titulo="Dirección:")
+      .tarjeta.color-primario-claro.p-4(titulo="Dirección")
         .row.p-3
           .col-7
-            h4 Dirección:
+            h4 Dirección
             p La dirección hace referencia, directamente, a la puesta en marcha de la estrategia.
           .col-5 
             figure
               img(src='@/assets/curso/img5.jpg', alt='Texto que describa la imagen')
-      .tarjeta.color-primario-claro.p-4(titulo="Control:")
+      .tarjeta.color-primario-claro.p-4(titulo="Control")
         .row.p-3
           .col-7
-            h4 Control:
+            h4 Control
             p Finalmente, se encuentra el proceso de control, donde se verifica que lo que se planeó se esté ejecutando de manera adecuada y que se estén obteniendo los resultados buscados (Hoyos, 2013).
 
           .col-5 
@@ -72,8 +65,6 @@
             |¿Somos competitivos en innovación y marca? 
             br
             |¿Están las estrategias orientadas a los clientes adecuados? 
-            br 
-            |Aplicar recurso Listado no ordenado icono color. Incluir imagen en pantalla.
     p.mb-5 En los procesos de evaluación de las organizaciones, las métricas proporcionan más datos, pero no necesariamente mejor información. No se trata de medir por medir, sino de saber qué se quiere, cómo se va a medir y qué información debe recibir cada persona responsable de tomar decisiones. Utilizar más métricas de las necesarias, además de ser caro, es ineficaz. Nadie puede tener los ojos puestos en demasiadas cosas al mismo tiempo (Domínguez y Muñoz, 2010). Todavía cabe señalar que las métricas se deben definir en tres planos: 
     .row
       .col-md-6.col-lg-3.mb-5
@@ -115,14 +106,15 @@
             p.text-center Existen métricas que deben ser de uso común, como la cuota de mercado, o cuota cliente, necesaria para poder establecer comparaciones con empresas del mismo sector (Domínguez y Muñoz, 2010). 
     #t_1_1.titulo-segundo
       .h4 1.1. Desempeño organizacional
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          figure
-              img(src='@/assets/curso/img12.jpg', alt='Texto que describa la imagen')
-        .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p Chiavenato (2009) describe que los resultados del negocio son las medidas del desempeño organizacional, los análisis financieros, el valor agregado, la participación de mercado y las utilidades. Indican qué tanto éxito tiene la organización en sus negocios. Son los indicadores del resultado final. Y los motores del desempeño organizacional son las medidas de los resultados intermedios, como la productividad, la calidad, la innovación y la satisfacción del cliente. Los resultados del negocio se alcanzan en razón del desempeño organizacional. Son indicadores de resultados intermedios que permiten alcanzar los resultados finales.
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-4.mb-lg-0
+                img(src='@/assets/curso/img12.jpg', alt='Texto que describa la imagen' style='width: 296px' )
+            .col-lg-8
+              .bloque-texto-a__texto.altura-bloque.p-3
+                p Chiavenato (2009) describe que los resultados del negocio son las medidas del desempeño organizacional, los análisis financieros, el valor agregado, la participación de mercado y las utilidades. Indican qué tanto éxito tiene la organización en sus negocios. Son los indicadores del resultado final. Y los motores del desempeño organizacional son las medidas de los resultados intermedios, como la productividad, la calidad, la innovación y la satisfacción del cliente. Los resultados del negocio se alcanzan en razón del desempeño organizacional. Son indicadores de resultados intermedios que permiten alcanzar los resultados finales.
     #t_1_2.titulo-segundo
       .h4 1.2. Parámetros de evaluación
     .row.mb-5
@@ -168,7 +160,7 @@
           li 
             i.fas.fa-check
             | Reembolsos por devoluciones sujetos a periodos de tiempo determinados por la organización.
-      div.p-3(titulo="Costes fijos del marketing")
+      div.p-3(titulo="Formula")
         p La fórmula para representar estos costes es la siguiente:
         p.ms-4.fst-italic           Costes del marketing = Costes fijos+Costes variables
           br
@@ -337,8 +329,10 @@
               br
               |Eficiencia
               br
-              |Actividad Ventas
-            td 40
+              |Actividad
+              br 
+              |Ventas
+            td 48
             td 50
             td 1000
             td 934
@@ -462,8 +456,8 @@
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.azul-claro.p-4
-            .h4.text-center Las empresas de hoy 
-            p.text-center El entorno de las empresas de hoy tiene mayores dificultades, derivadas del alto nivel de exigencia de los mercados. La alta competitividad, entre otros, hace que las organizaciones deban vivir en constante investigación, a fin de generar la información necesaria que, después de ser analizada, permita estructurar los planes de marketing y definir las estrategias adaptadas a las necesidades de cambio que se van presentando.
+            .h5.text-center.mt-5 Las empresas de hoy 
+            p.text-center.small-text El entorno de las empresas de hoy tiene mayores dificultades, derivadas del alto nivel de exigencia de los mercados. La alta competitividad, entre otros, hace que las organizaciones deban vivir en constante investigación, a fin de generar la información necesaria que, después de ser analizada, permita estructurar los planes de marketing y definir las estrategias adaptadas a las necesidades de cambio que se van presentando.
       .col-md-6.col-lg-4.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/img25.svg' alt='AvatarTop')
@@ -471,31 +465,31 @@
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.azul-claro.p-4
-            .h4.text-center El marketing 
-            p.text-center La esencia de una buena gestión en marketing está en: investigar, analizar, evaluar, planear, implementar y controlar (Prettel, 2016).
+            .h5.text-center.mt-5 El marketing 
+            p.text-center.small-text La esencia de una buena gestión en marketing está en: investigar, analizar, evaluar, planear, implementar y controlar (Prettel, 2016).
       .col-md-6.col-lg-4.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/img26.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
-          .tarjeta.azul-claro.p-4
-            .h4.text-center La competitividad
-            p.text-center Algunos indicadores para medir la competitividad:
+          .tarjeta.azul-claro.p-3
+            .h5.text-center.mt-5 La competitividad
+            p.text-center.px-5 Algunos indicadores para medir la competitividad:
             .formula.d-flex.align-items-center.mb-3
               .my-3.d-inline-block
-                p.mb-5 Posición de la empresa relativa del mercado =
-              .d-inline-block.ps-2.text-center  
-                p Ventas totales de la empresa
+                p.small-text.formula1 Posición de la empresa relativa del mercado =
+              .d-inline-block.text-center  
+                p.small-text  Ventas totales de la empresa
                 hr.hr.m-0
-                p Ventas estimadas de un competidor
-            .formula.d-flex.align-items-center.mb-3
+                p.small-text  Ventas estimadas de un competidor
+            .formula.d-flex.align-items-center.mb-3.justify-content-center
               .my-3.d-inline-block
-                p.mb-5 Grado de penetración en el mercado = 
-              .d-inline-block.ps-2.text-center  
-                p Número de clientes nuevos
+                p.small-text.formula1 Grado de penetración en el mercado = 
+              .d-inline-block.text-center  
+                p.small-text Número de clientes nuevos
                 hr.hr.m-0
-                p Clientes totales (actuales+potenciales)
+                p.small-text Clientes totales (actuales+potenciales)
 
 
 
@@ -515,12 +509,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'A través del componente formativo ‘Evaluación del plan de mercadeo’, el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de mercadeo final y el informe de evaluación del plan para su idea de negocio o proyecto productivo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    //fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -109,38 +109,50 @@ export default {
     },
     contenidoInstruccional: [
       {
-        nombre: 'Gloria Matilde Lee Mejia',
-        cargo: 'Responsable Equipo',
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
-      },
-      {
         nombre: 'Rafael Nelftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial Del Diseño Y La Manufactura',
         regional: 'Regional Santander',
       },
       {
+        nombre: 'Uriel Darío González Montoya',
+        cargo: 'Acompañamiento pedagógico',
+        centro: 'Centro Agropecuario La Granja',
+        regional: 'Regional Tolima',
+      },
+      {
         nombre: 'Claudia Juliana León Pinto',
-        cargo: 'Experta tematica ',
-        centro: 'Centro de Gestión Industrial',
+        cargo: 'Experta temática ',
+        centro: 'Centro de Servicios Empresariales y Turísticos',
         regional: 'Regional Santander',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Diseñadora Instruccional ',
+        cargo: 'Diseñadora instruccional ',
         centro: 'Centro de Gestión Industrial',
         regional: 'Regional Distrito Capital',
       },
       {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro Agropecuario La Granja',
+        regional: 'Regional Tolima',
+      },
+      {
         nombre: 'Jesús Libardo Acero',
         cargo: 'Evaluador instruccional',
-        centro: 'Centro de Diseño y metrología',
+        centro: 'Centro de Diseño y Metrología',
         regional: 'Regional Distrito Capital',
       },
       {
         nombre: 'Julieth Paola Vital López',
         cargo: 'Revisora de estilo',
+        centro: 'Centro para la Industria y la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
         centro: 'Centro para la Industria y la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
@@ -155,7 +167,14 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre: ['Daniel Ricardo Mutis Gómez', 'José Jaime Luis Tang Pinzón'],
+        nombre: [
+          'Yuly Andrea Rey Quiñonez',
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Nelson Vera Briceño',
+          'Adriana Ariza Luque',
+        ],
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
@@ -169,8 +188,8 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Ricardo Alfonso Gonzalez Vargas',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación de recursos'],
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -333,7 +352,7 @@ export default {
       texto:
         'Toro, F. (2020). Indicadores y claves para evaluar y controlar proyectos (2ª ed.). Ediciones de la U.',
       tipo: 'Libro',
-      descarga: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=10058&pg=1',
     },
   ],
 }
