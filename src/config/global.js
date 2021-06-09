@@ -115,46 +115,28 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Uriel Darío González Montoya',
-        cargo: 'Acompañamiento pedagógico',
-        centro: 'Centro Agropecuario La Granja',
-        regional: 'Regional Tolima',
-      },
-      {
         nombre: 'Claudia Juliana León Pinto',
-        cargo: 'Experta temática ',
-        centro: 'Centro de Servicios Empresariales y Turísticos',
+        cargo: 'Experta temática',
+        centro: 'Centro de Servicio Empresariales y Turísticos',
         regional: 'Regional Santander',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Diseñadora instruccional ',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
         cargo: 'Diseñador Instruccional',
-        centro: 'Centro Agropecuario La Granja',
-        regional: 'Regional Tolima',
+        centro:
+          'Regional Santander. Centro Industrial del Diseño y la Manufactura.',
+        regional: 'Regional Santander',
       },
       {
-        nombre: 'Jesús Libardo Acero',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        nombre: 'Uriel Darío González Montoya',
+        cargo: 'Acompañamiento pedagógico',
+        centro: 'Centro Agropecuario La Granja. ',
+        regional: 'Regional Tolima.',
       },
     ],
     desarrolloProducto: [
@@ -167,19 +149,26 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
+        nombre: ['Yuly Andrea Rey Quiñonez'],
+        cargo: 'Diseño web',
+      },
+      {
         nombre: [
-          'Yuly Andrea Rey Quiñonez',
           'Zuleidy Maria Ruiz Torres',
           'Wilson Andrés Arenales Caceres',
           'Gilberto Junior Rodriguez Rodriguez',
           'Nelson Vera Briceño',
           'Adriana Ariza Luque',
         ],
-        cargo: 'Diseño web y Producción Audiovisual',
+        cargo: 'Producción audiovisual',
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
+      },
+      {
+        nombre: 'Veimar Celis Melendez',
+        cargo: 'Validación de diseño y contenido',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -189,7 +178,7 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: ['Validación de recursos'],
+        cargo: ['Validación y vinculación en plataforma LMS'],
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },

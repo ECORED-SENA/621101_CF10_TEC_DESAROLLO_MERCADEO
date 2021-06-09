@@ -130,7 +130,7 @@
       .h4 2.1. Plan de contingencia
     .row.mb-5
       .col-lg-7
-        p Un plan de contingencia es un conjunto de procedimientos e instrucciones alternativas a las condiciones operativas normales de la organización, de forma que se permita el funcionamiento de esta, a pesar de que algunas de sus funciones dejen de hacerlo por culpa de algún incidente o ciertas condiciones externas ajenas a la organización.
+        p.mt-5 Un plan de contingencia es un conjunto de procedimientos e instrucciones alternativas a las condiciones operativas normales de la organización, de forma que se permita el funcionamiento de esta, a pesar de que algunas de sus funciones dejen de hacerlo por culpa de algún incidente o ciertas condiciones externas ajenas a la organización.
           br
           br
           |El plan de contingencia deberá estar basado en una evaluación de riesgos que permita identificar un conjunto de medidas y acciones básicas concretas de respuesta, que se deberían tomar para afrontar, de manera adecuada y efectiva, posibles incidentes, accidentes o estados de emergencias que pudieran ocurrir, tanto en las instalaciones como fuera de ellas (Osalan, 2020).
@@ -381,7 +381,7 @@
     
     .row.mb-5
       .col-lg-7
-        p La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
+        p.mt-4 La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
       .col-lg-5
             figure
               img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')

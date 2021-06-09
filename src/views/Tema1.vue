@@ -160,7 +160,7 @@
           li 
             i.fas.fa-check
             | Reembolsos por devoluciones sujetos a periodos de tiempo determinados por la organización.
-      div.p-3(titulo="Formula")
+      div.p-3(titulo="Fórmula")
         p La fórmula para representar estos costes es la siguiente:
         p.ms-4.fst-italic           Costes del marketing = Costes fijos+Costes variables
           br
