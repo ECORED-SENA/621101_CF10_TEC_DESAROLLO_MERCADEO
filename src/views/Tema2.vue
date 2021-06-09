@@ -373,60 +373,60 @@
       .col-12
         hr
     .h5 Grado de satisfacción.
-    //- figure
-    //- .video
-    //-   iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    //-   figcaption Video: Leyenda del video
+    figure
+    .video
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/NwkjS1RelyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
     hr
     
-    .row.mb-5
-      .col-lg-7
-        p.mt-4 La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
-      .col-lg-5
-            figure
-              img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')
-    ol.lista-ol--cuadro.mb-5
-        li 
-          .lista-ol--cuadro__vineta
-            span A
-          b Satisfacción y preferencia: 
-          b-none La profundidad de estos dos parámetros nos muestra el compromiso con la marca, cuya medida es la probabilidad de cambio.
+    //- .row.mb-5
+    //-   .col-lg-7
+    //-     p.mt-4 La satisfacción del cliente, por sí misma, no garantiza fidelidad. Se tiene un alto grado de fidelidad si la experiencia de compra tiene un grado muy alto de satisfacción. Existen gran cantidad de formas de gestionar la satisfacción del cliente, pero para que tenga significado, la empresa deberá definir y determinar dónde va a dar valor añadido al cliente y si este valor añadido va a ser un elemento diferenciador (Domínguez y Muñoz, 2010).
+    //-   .col-lg-5
+    //-         figure
+    //-           img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')
+    //- ol.lista-ol--cuadro.mb-5
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span A
+    //-       b Satisfacción y preferencia: 
+    //-       b-none La profundidad de estos dos parámetros nos muestra el compromiso con la marca, cuya medida es la probabilidad de cambio.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span B
-          p
-            b El compromiso mide la propensión de los consumidores a quedarse con una marca. 
-            b-none Es una métrica específica de la empresa. No es una métrica relativa que se pueda comparar con otras marcas de la competencia. 
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span B
+    //-       p
+    //-         b El compromiso mide la propensión de los consumidores a quedarse con una marca. 
+    //-         b-none Es una métrica específica de la empresa. No es una métrica relativa que se pueda comparar con otras marcas de la competencia. 
 
-        li 
-          .lista-ol--cuadro__vineta
-            span C
-          p
-            b La diferenciación es más un diagnóstico que una métrica. 
-            b-none Es necesario hacer encuestas periódicas de satisfacción de clientes, sobre todo en empresas de consumo (Domínguez y Muñoz, 2010).
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span C
+    //-       p
+    //-         b La diferenciación es más un diagnóstico que una métrica. 
+    //-         b-none Es necesario hacer encuestas periódicas de satisfacción de clientes, sobre todo en empresas de consumo (Domínguez y Muñoz, 2010).
 
-        li 
-          .lista-ol--cuadro__vineta
-            span D
-          p
-            b Ejemplo de escala para encuesta:
-    .tabla-a.color-acento-botones.mb-5 
-      table
-        thead
-          tr
-            th Muy insatisfecho
-            th Algo insatisfecho
-            th Ni insatisfecho ni satisfecho
-            th Algo satisfecho
-            th Muy satisfecho
-        tbody
-          tr
-            td 1
-            td 2
-            td 3
-            td 4
-            td 5
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span D
+    //-       p
+    //-         b Ejemplo de escala para encuesta:
+    //- .tabla-a.color-acento-botones.mb-5 
+    //-   table
+    //-     thead
+    //-       tr
+    //-         th Muy insatisfecho
+    //-         th Algo insatisfecho
+    //-         th Ni insatisfecho ni satisfecho
+    //-         th Algo satisfecho
+    //-         th Muy satisfecho
+    //-     tbody
+    //-       tr
+    //-         td 1
+    //-         td 2
+    //-         td 3
+    //-         td 4
+    //-         td 5
     p.mb-5 A continuación, se pueden apreciar las métricas para medir el grado de satisfacción propuestas por Hoyos (2013).
     .h5 Métricas para medir grado de satisfacción
     p.mb-5 Presione, ordenadamente, los enlaces que ve en pantalla y analice cada una de las métricas para la medición del grado de satisfacción del cliente. Tome atenta nota de ellas.
