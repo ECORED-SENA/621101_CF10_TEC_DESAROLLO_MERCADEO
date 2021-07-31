@@ -118,7 +118,7 @@
                 img(src='@/assets/curso/img12.jpg', alt='Texto que describa la imagen' style='width: 296px' )
             .col-lg-8
               .bloque-texto-a__texto.altura-bloque.p-3
-                p Chiavenato (2009) describe que los resultados del negocio son las medidas del desempeño organizacional, los análisis financieros, el valor agregado, la participación de mercado y las utilidades. Indican qué tanto éxito tiene la organización en sus negocios. Son los indicadores del resultado final. Y los motores del desempeño organizacional son las medidas de los resultados intermedios, como la productividad, la calidad, la innovación y la satisfacción del cliente. Los resultados del negocio se alcanzan en razón del desempeño organizacional. Son indicadores de resultados intermedios que permiten alcanzar los resultados finales.
+                p Chiavenato (2009), describe que los resultados del negocio son las medidas del desempeño organizacional, los análisis financieros, el valor agregado, la participación de mercado y las utilidades. Indican qué tanto éxito tiene la organización en sus negocios. Son los indicadores del resultado final. Y los motores del desempeño organizacional son las medidas de los resultados intermedios, como la productividad, la calidad, la innovación y la satisfacción del cliente. Los resultados del negocio se alcanzan en razón del desempeño organizacional. Son indicadores de resultados intermedios que permiten alcanzar los resultados finales.
     #t_1_2.titulo-segundo
       h2 1.2. Parámetros de evaluación
     .row.mb-5
@@ -188,10 +188,8 @@
       p.fst-italic.text-center
         b Beneficios= Ingreso por ventas - Costo de los bienes – Gastos comerciales – Otros gastos operativos
     .h5 Eficiencia.
-    p.mb-5 Mediante el siguiente gráfico interactivo, es posible descubrir y reforzar los elementos conceptuales y prácticos relacionados con indicadores de eficiencia de una organización.
-      br
-      br
-      |Los indicadores de eficiencia se encaminan hacia el control de los recursos y muestran las diferencias entre lo gastado o consumido y lo producido. Se refieren a la adquisición de los insumos, que deben ser de calidad, en cantidad adecuada, en el tiempo adecuado y al menor costo posible (Cano, 2014).  
+    p.mb-5 
+      | Los indicadores de eficiencia se encaminan hacia el control de los recursos y muestran las diferencias entre lo gastado o consumido y lo producido. Se refieren a la adquisición de los insumos, que deben ser de calidad, en cantidad adecuada, en el tiempo adecuado y al menor costo posible (Cano, 2014).  
     .row.mb-5
       .col-lg-4
         figure.mb-3

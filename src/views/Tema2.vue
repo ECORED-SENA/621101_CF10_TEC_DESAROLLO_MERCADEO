@@ -434,11 +434,14 @@
     p.mb-5 A continuación, se pueden apreciar las métricas para medir el grado de satisfacción propuestas por Hoyos (2013).
     .h5 Métricas para medir grado de satisfacción
     p.mb-5 Presione, ordenadamente, los enlaces que ve en pantalla y analice cada una de las métricas para la medición del grado de satisfacción del cliente. Tome atenta nota de ellas.
-    .row.mb-5
-      .col-lg-12
-        .tarjeta-avatar-b.mb-3
+    ImagenInfografica.color-acento-botones.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/img54.svg', alt='Texto que describa la imagen')
+      .tarjeta.color-acento-botones.p-3(x="80%" y="20%")
+        .d-flex
           img(src='@/assets/curso/img47.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3.ml.ps-5
+          .tarjeta.p-3.ml.ps-5
             h5 Nivel de satisfacción
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
@@ -447,55 +450,10 @@
                 p.b Clientes satisfechos
                   hr.hr.m-0
                 p.b Clientes leales
-      .col-lg-12
-        .tarjeta-avatar-b.mb-3
-          img(src='@/assets/curso/img49.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3.ml.ps-5
-            .h5 Grado de satisfacción
-            .formula.d-flex.align-items-center.mb-1
-              .my-3.d-inline-block.text-center
-                p.b Grado de satisfacción =  
-              .d-inline-block.ps-2.text-center
-                p.b Clientes que han consumido en el periodo - Clientes que se han mostrado insatisfechos
-                  hr.hr.m-0
-                p.b Clientes totales del periodo
-      .col-lg-12
-        .tarjeta-avatar-b.mb-3
-          img(src='@/assets/curso/img48.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3.ml.ps-5
-            .h5 Lealtad
-            .formula.d-flex.align-items-center.mb-1
-              .my-3.d-inline-block.text-center
-                p.b Lealtad =   
-              .d-inline-block.ps-2.text-center
-                p.b Compras a la empresa
-                  hr.hr.m-0
-                p.b Compras a la competencia
-        .tarjeta-avatar-b.mb-3
-          img(src='@/assets/curso/img50.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3.ml.ps-5
-            .h5 Participación en la billetera del cliente
-            .formula.d-flex.align-items-center.mb-1
-              .my-3.d-inline-block.text-center
-                p.b Participación en la billetera del cliente (Share of wallet)  = 
-              .d-inline-block.ps-2.text-center
-                p.b Ventas de la marca por periodo
-                  hr.hr.m-0
-                p.b Total de compras del cliente por periodo
-        .tarjeta-avatar-b.mb-3
-          img(src='@/assets/curso/img51.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3.ml.ps-5
-            .h5 Top of mind
-            .formula.d-flex.align-items-center.mb-1
-              .my-3.d-inline-block.text-center
-                p.b Top of mind =  
-              .d-inline-block.ps-2.text-center
-                p.b Porcentaje de personas que nombran primero una marca
-                  hr.hr.m-0
-                p.b Total de encuestados
-        .tarjeta-avatar-b.mb-3
+      .tarjeta.color-acento-botones.p-3(x="20%" y="20%")
+        .d-flex
           img(src='@/assets/curso/img52.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
-          .tarjeta.tarjeta--roja.p-3.ml.ps-5
+          .tarjeta.p-3.ml.ps-5
             .h5 Top of heart
             .formula.d-flex.align-items-center.mb-1
               .my-3.d-inline-block.text-center
@@ -504,6 +462,124 @@
                 p.b Porcentaje de personas que prefieren una marca
                   hr.hr.m-0
                 p.b Total de encuestados
+      .tarjeta.color-acento-botones.p-3(x="10%" y="50%")
+        .d-flex
+          img(src='@/assets/curso/img51.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+          .tarjeta.p-3.ml.ps-5
+            .h5 Top of mind
+            .formula.d-flex.align-items-center.mb-1
+              .my-3.d-inline-block.text-center
+                p.b Top of mind =  
+              .d-inline-block.ps-2.text-center
+                p.b Porcentaje de personas que nombran primero una marca
+                  hr.hr.m-0
+                p.b Total de encuestados
+      .tarjeta.color-acento-botones.p-3(x="92%" y="50%")
+        .d-flex
+          img(src='@/assets/curso/img49.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+          .tarjeta.p-3.ml.ps-5
+            .h5 Grado de satisfacción
+            .formula.d-flex.align-items-center.mb-1
+              .my-3.d-inline-block.text-center
+                p.b Grado de satisfacción =  
+              .d-inline-block.ps-2.text-center
+                p.b Clientes que han consumido en el periodo - Clientes que se han mostrado insatisfechos
+                  hr.hr.m-0
+                p.b Clientes totales del periodo
+      .tarjeta.color-acento-botones.p-3(x="75%" y="80%")
+        .d-flex
+          img(src='@/assets/curso/img48.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+          .tarjeta.p-3.ml.ps-5
+            .h5 Lealtad
+            .formula.d-flex.align-items-center.mb-1
+              .my-3.d-inline-block.text-center
+                p.b Lealtad =   
+              .d-inline-block.ps-2.text-center
+                p.b Compras a la empresa
+                  hr.hr.m-0
+                p.b Compras a la competencia
+      .tarjeta.color-acento-botones.p-3(x="25%" y="80%")
+        .d-flex
+          img(src='@/assets/curso/img50.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+          .tarjeta.p-3.ml.ps-5
+            .h5 Participación en la billetera del cliente
+            .formula.d-flex.align-items-center.mb-1
+              .my-3.d-inline-block.text-center
+                p.b Participación en la billetera del cliente (Share of wallet)  = 
+              .d-inline-block.ps-2.text-center
+                p.b Ventas de la marca por periodo
+                  hr.hr.m-0
+                p.b Total de compras del cliente por periodo
+    //- .row.mb-5
+    //-   .col-lg-12
+    //-     .tarjeta-avatar-b.mb-3
+    //-       img(src='@/assets/curso/img47.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+    //-       .tarjeta.tarjeta--roja.p-3.ml.ps-5
+    //-         h5 Nivel de satisfacción
+    //-         .formula.d-flex.align-items-center.mb-1
+    //-           .my-3.d-inline-block.text-center
+    //-             p.b Nivel de satisfacción  =  
+    //-           .d-inline-block.ps-2.text-center
+    //-             p.b Clientes satisfechos
+    //-               hr.hr.m-0
+    //-             p.b Clientes leales
+    //-   .col-lg-12
+    //-     .tarjeta-avatar-b.mb-3
+    //-       img(src='@/assets/curso/img49.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+    //-       .tarjeta.tarjeta--roja.p-3.ml.ps-5
+    //-         .h5 Grado de satisfacción
+    //-         .formula.d-flex.align-items-center.mb-1
+    //-           .my-3.d-inline-block.text-center
+    //-             p.b Grado de satisfacción =  
+    //-           .d-inline-block.ps-2.text-center
+    //-             p.b Clientes que han consumido en el periodo - Clientes que se han mostrado insatisfechos
+    //-               hr.hr.m-0
+    //-             p.b Clientes totales del periodo
+    //-   .col-lg-12
+    //-     .tarjeta-avatar-b.mb-3
+    //-       img(src='@/assets/curso/img48.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+    //-       .tarjeta.tarjeta--roja.p-3.ml.ps-5
+    //-         .h5 Lealtad
+    //-         .formula.d-flex.align-items-center.mb-1
+    //-           .my-3.d-inline-block.text-center
+    //-             p.b Lealtad =   
+    //-           .d-inline-block.ps-2.text-center
+    //-             p.b Compras a la empresa
+    //-               hr.hr.m-0
+    //-             p.b Compras a la competencia
+    //-     .tarjeta-avatar-b.mb-3
+    //-       img(src='@/assets/curso/img50.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+    //-       .tarjeta.tarjeta--roja.p-3.ml.ps-5
+    //-         .h5 Participación en la billetera del cliente
+    //-         .formula.d-flex.align-items-center.mb-1
+    //-           .my-3.d-inline-block.text-center
+    //-             p.b Participación en la billetera del cliente (Share of wallet)  = 
+    //-           .d-inline-block.ps-2.text-center
+    //-             p.b Ventas de la marca por periodo
+    //-               hr.hr.m-0
+    //-             p.b Total de compras del cliente por periodo
+    //-     .tarjeta-avatar-b.mb-3
+    //-       img(src='@/assets/curso/img51.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+    //-       .tarjeta.tarjeta--roja.p-3.ml.ps-5
+    //-         .h5 Top of mind
+    //-         .formula.d-flex.align-items-center.mb-1
+    //-           .my-3.d-inline-block.text-center
+    //-             p.b Top of mind =  
+    //-           .d-inline-block.ps-2.text-center
+    //-             p.b Porcentaje de personas que nombran primero una marca
+    //-               hr.hr.m-0
+    //-             p.b Total de encuestados
+    //-     .tarjeta-avatar-b.mb-3
+    //-       img(src='@/assets/curso/img52.svg' alt='AvatarTop' style='max-width: 84px !important ; min-width: 84px')
+    //-       .tarjeta.tarjeta--roja.p-3.ml.ps-5
+    //-         .h5 Top of heart
+    //-         .formula.d-flex.align-items-center.mb-1
+    //-           .my-3.d-inline-block.text-center
+    //-             p.b Top of heard = 
+    //-           .d-inline-block.ps-2.text-center
+    //-             p.b Porcentaje de personas que prefieren una marca
+    //-               hr.hr.m-0
+    //-             p.b Total de encuestados
     .h5 Retorno sobre la inversión.
     .row.mb-5
       .col-lg-7
